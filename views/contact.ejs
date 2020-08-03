@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bg-cover bg-center" style="background-image: url(red-pink-gradient-abstract-polygon-triangular-vector-9069379.jpg)">
+        <div class="bg-grey-lighter min-h-screen flex flex-col">
+            <div class="container max-w-xl mx-auto flex-1 flex flex-col items-center justify-center px-2">
+                <div class="bg-white px-6 py-8 rounded-lg shadow-lg border-2 border-red-900 text-black w-full">
+                    <h1 class="text-4xl font-light font-bold text-center uppercase mb-6">Contact Me</h1>
+                    <form action="/contact/" method="POST">
+                    <input
+                        type="email"
+                        class="bg-red-100 border border-red-200 appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5"
+                        name="email"
+                        placeholder="Email" required />
+                        <input
+                            type="text"
+                            class="bg-red-100 border border-red-200 appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5"
+                            name="subject"
+                            placeholder="Subject" required />
+
+                        <textarea 
+                        name="message" 
+                        class="bg-red-100 border border-red-200 appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5"
+                        placeholder="Message" required
+                        ></textarea>
+
+                       <button
+                           type="submit"
+                           value="Send"
+                           class="w-full bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                       >Submit</button>
+                    </form>
+                </div>
+           </div>
+       </div>
+    </body>
+</html>
